@@ -26,7 +26,7 @@
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
-    "root": true,
+    "root": true, 
     "env": {
       "node": true
     },
@@ -34,7 +34,24 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "indent": "off",
+      "linebreak-style": "off",
+      "quotes": "off",
+      "semi": "off",
+      "no-trailing-spaces": "off",
+      "comma-dangle": "off",
+      "no-unused-vars": "off",
+      "no-multiple-empty-lines": "off",
+      "no-tabs": "off",
+      "spaced-comment": "off",
+      "padded-blocks": "off",
+      "arrow-body-style": "off",
+      "no-undef": "off",
+      "max-len": "off"
+
+
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
