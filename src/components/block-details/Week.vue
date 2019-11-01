@@ -12,7 +12,7 @@
 import Workout from '@/components/block-details/Workout.vue';
 
 export default {
-  name: 'Block',
+  name: 'Week',
   props: {
     msg: String,
   },

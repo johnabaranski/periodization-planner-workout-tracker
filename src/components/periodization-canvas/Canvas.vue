@@ -2,6 +2,12 @@
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron"><h1>Periodization Timeline</h1></div>
+    <div>
+    <p>Blocks test - List from Vuex</p>
+      <ul>
+      <li v-for="block in blocks" :key="block.id">{{ block.title }} </li>
+      </ul>
+    </div>
 
       <div class="swiper-container">
         <p class="swiper-control">
@@ -30,6 +36,9 @@
 </template>
 
 <script>
+
+import { mapState } from 'vuex'
+
 const data = [
   { dateLabel: 'January 2019', title: 'Strength Block', id: 1 },
   { dateLabel: 'February 2019', title: 'Hypertrophy Block', id: 2 },
@@ -42,6 +51,8 @@ const data = [
   { dateLabel: 'September 2019', title: 'Hypertrophy Block', id: 9 },
    { dateLabel: 'October 2019', title: 'Hypertrophy Block', id: 10 }
 ];
+
+
 
 export default {
   name: 'Canvas',
@@ -61,8 +72,13 @@ export default {
       paginationClickable: true,
       nextButton: '.next-slide',
       prevButton: '.prev-slide',
-    });    
-  }
+    });   
+
+    this.$store.dispatch('getBlocks') 
+  },
+  computed: mapState([
+    'blocks'
+  ])
 };
 
 

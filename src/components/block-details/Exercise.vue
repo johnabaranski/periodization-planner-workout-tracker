@@ -1,21 +1,26 @@
 <template>
 <div class="exercise-container">
     <h5>This is an Exercise in a Workout - {{ exname }}</h5>
-    <ul>
-  <li v-for="index in sets" :key="index">Set #: {{ index }}</li>
-</ul>
+    
+  <!-- <li v-for="index in sets" :key="index">Set #: {{ index }}</li> -->
+      <!-- <Set :rpe=8 reps="5" weight="200" v-for="index in sets" :key="index"/> -->
+    <Set rpe="8" reps="5" weight="200" />
+    <Set rpe="7" reps="6" weight="200" />
     </div>
 </template>
 
 <script>
 
+import Set from '@/components/block-details/Set.vue';
 
 export default {
-  name: 'Block',
+  name: 'Exercise',
   props: {
-    sets: Number,
     exname: String,
-  }
+  },
+  components: {
+    Set,
+  },
 };
 
 
@@ -34,18 +39,6 @@ export default {
     
 }
 
-.exercise-container ul {
-    list-style-type: none;
-}
-.exercise-container li {
 
-    background-color: lightblue;
-    color: black;
-    padding: 5px;
-    margin: 5px;
-    
-
-    
-}
 
 </style>

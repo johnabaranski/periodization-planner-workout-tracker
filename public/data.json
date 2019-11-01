@@ -1,0 +1,1323 @@
+{
+    "user": 1,
+    "blocks": [
+      {
+        "id": "1",
+        "title": "Strength",
+        "timeframe": "January 2019",
+        "description": "A Strength Block",
+        "weeks": [
+          {
+            "id": "1",
+            "title": "Week 1",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Week 2",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Week 3",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Week 4",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        }
+            ]
+          }
+
+        ],
+        "blockType": "Strength"
+      },
+      {
+        "id": "2",
+        "title": "Hypertrophy Block",
+        "timeframe": "February 2019",
+        "description": "A Hypertrophy Block",
+        "weeks": [
+          {
+            "id": "1",
+            "title": "Week 1",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "Dips",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}
+                                ]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Week 2",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Week 3",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        }
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Week 4",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        }
+            ]
+          }
+
+        ],
+        "blockType": "Hypertophy"
+      },
+      {
+        "id": "3",
+        "title": "Strength/Running",
+        "timeframe": "March 2019",
+        "description": "A Strength/Running Block",
+        "weeks": [
+          {
+            "id": "1",
+            "title": "Week 1",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "800 Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 4, "rpe": 8, "weight": null, "Distance": "800m"}, 
+                                    {"id": "2", "reps": 4, "rpe": 7, "weight": null, "Distance": "800m"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Week 2",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "Mile Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Week 3",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "400m Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 5, "rpe": 8, "weight": null, "Distance": "400m"}, 
+                                    {"id": "2", "reps": 5, "rpe": 7, "weight": null, "Distance": "400m"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Week 4",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Bench/Full Body",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Pause Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "SSB Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Squat/Full Body",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Comp Squat",
+                        "Sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "OHP",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Deadlift/Full Body",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Sumo Deadlift",
+                            "Sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "Barbell Row",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                ]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "Mile Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          }
+
+        ],
+        "blockType": "Strength/Running"
+      },
+      {
+        "id": "4",
+        "title": "Hypertrophy/Running Block",
+        "timeframe": "April 2019",
+        "description": "A Hypertrophy/Running Block",
+        "weeks": [
+          {
+            "id": "1",
+            "title": "Week 1",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                    },
+                    {
+                        "id": "2",
+                        "title": "Dips",
+                        "Sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": 1,
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}
+                            ]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}
+                                ]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "Mile Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Week 2",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Long Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "6 Mile Run",
+                                "Sets": [
+                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "Distance": "6"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Week 3",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Long Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "7 Mile Run",
+                                "Sets": [
+                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "Distance": "7"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Week 4",
+            "start": "2017-01-09T14:40:30Z",
+            "end": "2017-01-09T14:40:30Z",
+            "workouts": [
+                {
+                "id": "1", 
+                "title": "Push",
+                "exercise": [
+                    {
+                    "id": "1",
+                    "title": "Bench Press",
+                    "Sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                        ]
+                    },
+                    {
+                    "id": "2",
+                    "title": "Dips",
+                    "Sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                        ]
+                    }
+                ]
+                    
+                },
+                {
+                    "id": "2", 
+                    "title": "Pull",
+                    "exercise": [
+                        {
+                        "id": "1",
+                        "title": "Pullup",
+                        "Sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        },
+                        {
+                            "id": "2",
+                            "title": "Trap Bar DL",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            }
+                    ]
+                        
+                    },
+                    {
+                        "id": "3", 
+                        "title": "Legs",
+                        "exercise": [
+                            {
+                            "id": "1",
+                            "title": "Squat",
+                            "Sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            },
+                            {
+                                "id": "2",
+                                "title": "RDL",
+                                "Sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                }
+                        ]
+                            
+                        },
+                        {
+                            "id": "4", 
+                            "title": "Track Run",
+                            "exercise": [
+                                {
+                                "id": "1",
+                                "title": "Mile Repeats",
+                                "Sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                }
+                            ]
+                                
+                            }
+            ]
+          }
+
+        ],
+        "blockType": "Hypertrophy/Running"
+      }
+    ]
+  }
