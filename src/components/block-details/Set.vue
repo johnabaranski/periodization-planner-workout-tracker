@@ -6,7 +6,8 @@
     <div class="row">
         <div class="col-lg-4">Reps: {{ reps }}</div>
         <div class="col-lg-4">@ RPE: {{ rpe }}</div>
-        <div class="col-lg-4">Weight: {{ weight }}</div>
+        <div class="col-lg-4">{{ weight == null ? "Distance: " + distance : "Weight: " + weight }}</div>
+        <!-- <div class="col-lg-4">{{ measure }}</div> -->
     </div>
 
 </div>
@@ -19,9 +20,15 @@
 export default {
   name: 'Set',
   props: {
-    rpe: String,
-    reps: String,
-    weight: String,
+    rpe: Number,
+    reps: Number,
+    weight: Number,
+    distance: String,
+  },
+  computed: {
+    measure: () => {
+      return (this.weight == null ? `Weight: {{ weight }}` : `Distance: {{ distance }}`)
+    }
   }
 };
 

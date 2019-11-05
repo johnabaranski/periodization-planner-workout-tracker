@@ -1,9 +1,9 @@
 <template>
 <div class="workout-container">
-    <h4>This is a Workout in a Week - {{msg}}</h4>
-    <Exercise exname="Squats"/>
-    <Exercise exname="Calf Raise"/>
-    <Exercise exname="Power Cleans"/>
+    <h4>{{msg}}</h4>
+    <div v-for="exercise in exercises.exercise" :key="exercise.exercise">
+          <Exercise :exname="exercise.title" :id="exercise.id" :sets="exercise"/>
+      </div>
     </div>
 </template>
 
@@ -14,6 +14,8 @@ export default {
   name: 'Workout',
   props: {
     msg: String,
+    id: String,
+    exercises: Object
   },
 components: {
     Exercise,

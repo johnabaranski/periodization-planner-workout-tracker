@@ -15,21 +15,23 @@
             "workouts": [
                 {
                 "id": "1", 
-                "title": "Bench/Full Body",
+                "title": "Bench/Full Body ",
                 "exercise": [
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -41,16 +43,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -62,17 +66,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -93,16 +99,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -114,16 +122,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -135,17 +145,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -166,16 +178,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -187,16 +201,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -208,17 +224,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -239,16 +257,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -260,16 +280,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -281,17 +303,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -317,64 +341,70 @@
             "workouts": [
                 {
                 "id": "1", 
-                "title": "Push",
+                "title": "Push1",
                 "exercise": [
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "Dips",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
                 },
                 {
                     "id": "2", 
-                    "title": "Pull",
+                    "title": "Pull1",
                     "exercise": [
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
                     },
                     {
                         "id": "3", 
-                        "title": "Legs",
+                        "title": "Legs1",
                         "exercise": [
                             {
                             "id": 1,
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}
                                 ]
                                 }
                         ]
@@ -390,22 +420,24 @@
             "workouts": [
                 {
                 "id": "1", 
-                "title": "Push",
+                "title": "Push2",
                 "exercise": [
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -413,42 +445,46 @@
                 },
                 {
                     "id": "2", 
-                    "title": "Pull",
+                    "title": "Pull2",
                     "exercise": [
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
                     },
                     {
                         "id": "3", 
-                        "title": "Legs",
+                        "title": "Legs2",
                         "exercise": [
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -463,22 +499,24 @@
             "workouts": [
                 {
                 "id": "1", 
-                "title": "Push",
+                "title": "Push3",
                 "exercise": [
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -486,42 +524,46 @@
                 },
                 {
                     "id": "2", 
-                    "title": "Pull",
+                    "title": "Pull3",
                     "exercise": [
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
                     },
                     {
                         "id": "3", 
-                        "title": "Legs",
+                        "title": "Legs3",
                         "exercise": [
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -536,22 +578,24 @@
             "workouts": [
                 {
                 "id": "1", 
-                "title": "Push",
+                "title": "Push4",
                 "exercise": [
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -559,42 +603,46 @@
                 },
                 {
                     "id": "2", 
-                    "title": "Pull",
+                    "title": "Pull4",
                     "exercise": [
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
                     },
                     {
                         "id": "3", 
-                        "title": "Legs",
+                        "title": "Legs4",
                         "exercise": [
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -624,16 +672,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -645,16 +695,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -666,17 +718,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -689,9 +743,10 @@
                                 {
                                 "id": "1",
                                 "title": "800 Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 4, "rpe": 8, "weight": null, "Distance": "800m"}, 
-                                    {"id": "2", "reps": 4, "rpe": 7, "weight": null, "Distance": "800m"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 4, "rpe": 8, "weight": null, "distance": "800m"}, 
+                                    {"id": "2", "reps": 4, "rpe": 7, "weight": null, "distance": "800m"}]
                                 }
                             ]
                                 
@@ -711,16 +766,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -732,16 +789,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -753,17 +812,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -776,9 +837,10 @@
                                 {
                                 "id": "1",
                                 "title": "Mile Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
-                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "distance": "1"}]
                                 }
                             ]
                                 
@@ -798,16 +860,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -819,16 +883,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -840,17 +906,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -863,9 +931,10 @@
                                 {
                                 "id": "1",
                                 "title": "400m Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 5, "rpe": 8, "weight": null, "Distance": "400m"}, 
-                                    {"id": "2", "reps": 5, "rpe": 7, "weight": null, "Distance": "400m"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 5, "rpe": 8, "weight": null, "distance": "400m"}, 
+                                    {"id": "2", "reps": 5, "rpe": 7, "weight": null, "distance": "400m"}]
                                 }
                             ]
                                 
@@ -885,16 +954,18 @@
                     {
                     "id": "1",
                     "title": "Pause Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 5, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 5, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "SSB Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -906,16 +977,18 @@
                         {
                         "id": "1",
                         "title": "Comp Squat",
-                        "Sets": [
-                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315}, 
-                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 5, "rpe": 8, "weight": 315, "distance": ""}, 
+                            {"id": "2", "reps": 5, "rpe": 7, "weight": 290, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "OHP",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125}, 
-                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 125, "distance": ""}, 
+                                {"id": "2", "reps": 6, "rpe": 7, "weight": 125, "distance": ""}]
                             }
                     ]
                         
@@ -927,17 +1000,19 @@
                             {
                             "id": 1,
                             "title": "Sumo Deadlift",
-                            "Sets": [
-                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375}, 
-                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 5, "rpe": 8, "weight": 375, "distance": ""}, 
+                                {"id": "2", "reps": 5, "rpe": 7, "weight": 350, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "Barbell Row",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 235, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 205, "distance": ""}
                                 ]
                                 }
                         ]
@@ -950,9 +1025,10 @@
                                 {
                                 "id": "1",
                                 "title": "Mile Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
-                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "distance": "1"}]
                                 }
                             ]
                                 
@@ -982,16 +1058,18 @@
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                     },
                     {
                         "id": "2",
                         "title": "Dips",
-                        "Sets": [
-                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200}, 
-                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 12, "rpe": 7, "weight": 200, "distance": ""}]
                     }
                 ]
                     
@@ -1003,16 +1081,18 @@
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
@@ -1024,17 +1104,19 @@
                             {
                             "id": 1,
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}
                             ]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}
                                 ]
                                 }
                         ]
@@ -1047,9 +1129,10 @@
                                 {
                                 "id": "1",
                                 "title": "Mile Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
-                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "distance": "1"}]
                                 }
                             ]
                                 
@@ -1069,17 +1152,19 @@
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -1092,16 +1177,18 @@
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
@@ -1113,16 +1200,18 @@
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -1134,8 +1223,9 @@
                                 {
                                 "id": "1",
                                 "title": "6 Mile Run",
-                                "Sets": [
-                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "Distance": "6"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "distance": "6"}]
                                 }
                             ]
                                 
@@ -1155,17 +1245,19 @@
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -1178,16 +1270,18 @@
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
@@ -1199,16 +1293,18 @@
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -1220,8 +1316,9 @@
                                 {
                                 "id": "1",
                                 "title": "7 Mile Run",
-                                "Sets": [
-                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "Distance": "7"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 1, "rpe": 8, "weight": null, "distance": "7"}]
                                 }
                             ]
                                 
@@ -1241,17 +1338,19 @@
                     {
                     "id": "1",
                     "title": "Bench Press",
-                    "Sets": [
-                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225}, 
-                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 8, "rpe": 8, "weight": 225, "distance": ""}, 
+                        {"id": "2", "reps": 8, "rpe": 7, "weight": 225, "distance": ""}
                         ]
                     },
                     {
                     "id": "2",
                     "title": "Dips",
-                    "Sets": [
-                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235}, 
-                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235}
+                    "type": "Strength",
+                    "sets": [
+                        {"id": "1", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}, 
+                        {"id": "2", "reps": 12, "rpe": 7, "weight": 235, "distance": ""}
                         ]
                     }
                 ]
@@ -1264,16 +1363,18 @@
                         {
                         "id": "1",
                         "title": "Pullup",
-                        "Sets": [
-                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                        "type": "Strength",
+                        "sets": [
+                            {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                            {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                         },
                         {
                             "id": "2",
                             "title": "Trap Bar DL",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 200, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 180, "distance": ""}]
                             }
                     ]
                         
@@ -1285,16 +1386,18 @@
                             {
                             "id": "1",
                             "title": "Squat",
-                            "Sets": [
-                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300}, 
-                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300}]
+                            "type": "Strength",
+                            "sets": [
+                                {"id": "1", "reps": 8, "rpe": 8, "weight": 300, "distance": ""}, 
+                                {"id": "2", "reps": 8, "rpe": 7, "weight": 300, "distance": ""}]
                             },
                             {
                                 "id": "2",
                                 "title": "RDL",
-                                "Sets": [
-                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150}, 
-                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150}]
+                                "type": "Strength",
+                                "sets": [
+                                    {"id": "1", "reps": 8, "rpe": 8, "weight": 150, "distance": ""}, 
+                                    {"id": "2", "reps": 8, "rpe": 7, "weight": 150, "distance": ""}]
                                 }
                         ]
                             
@@ -1306,9 +1409,10 @@
                                 {
                                 "id": "1",
                                 "title": "Mile Repeats",
-                                "Sets": [
-                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "Distance": "1"}, 
-                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "Distance": "1"}]
+                                "type": "Running",
+                                "sets": [
+                                    {"id": "1", "reps": 3, "rpe": 8, "weight": null, "distance": "1"}, 
+                                    {"id": "2", "reps": 3, "rpe": 7, "weight": null, "distance": "1"}]
                                 }
                             ]
                                 

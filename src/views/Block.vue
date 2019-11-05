@@ -1,6 +1,7 @@
 <template>
   <div class="block">
     <Block msg="This is a block which will get it's value from Vuex based on the id of the block"/>
+    <p>This will contain a list of weeks.</p>
   </div>
 </template>
 

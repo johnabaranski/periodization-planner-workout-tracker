@@ -2,26 +2,34 @@
   <div class="row">
     <div class="col-md-12">
       <div class="jumbotron"><h1>Periodization Timeline</h1></div>
-    <div>
+    <!-- <div>
     <p>Blocks test - List from Vuex</p>
       <ul>
       <li v-for="block in blocks" :key="block.id">{{ block.title }} </li>
       </ul>
-    </div>
+    </div> -->
 
       <div class="swiper-container">
         <p class="swiper-control">
           <button type="button" class="btn btn-default btn-sm prev-slide">Prev</button>
           <button type="button" class="btn btn-default btn-sm next-slide">Next</button>
         </p>
-        <div class="swiper-wrapper timeline">
+        <!-- <div class="swiper-wrapper timeline">
           <div class="swiper-slide" v-for="item in steps" v-bind:key="item">
             <div class="timestamp">
               <span class="date">{{item.dateLabel}}</span>
             </div>
             <div class="status">
-              <!-- <span><router-link :to="{ name: 'workouts', params: {{ id: item.id }} }">{{item.title}}</router-link></span> -->
                   <span><router-link :to="{ name: 'block', params: { id: item.id }}">{{item.title}}</router-link></span> 
+            </div>
+          </div> -->
+          <div class="swiper-wrapper timeline">
+          <div class="swiper-slide" v-for="block in blocks" :key="block.id">
+            <div class="timestamp">
+              <span class="date">{{ block.timeframe }}</span>
+            </div>
+            <div class="status">
+                  <span><router-link :to="{ name: 'block', params: { id: block.id }}">{{ block.title }}</router-link></span> 
             </div>
           </div>
         </div>
@@ -39,31 +47,13 @@
 
 import { mapState } from 'vuex'
 
-const data = [
-  { dateLabel: 'January 2019', title: 'Strength Block', id: 1 },
-  { dateLabel: 'February 2019', title: 'Hypertrophy Block', id: 2 },
-  { dateLabel: 'March 2019', title: 'Running/Strength Block', id: 3 },
-  { dateLabel: 'April 2019', title: 'Hypertrophy Block', id: 4 },
-  { dateLabel: 'May 2019', title: 'Running/Strength Block', id: 5 },
-  { dateLabel: 'June 2019', title: 'Hypertrophy Block', id: 6 },
-  { dateLabel: 'July 2019', title: 'Running/Hypertrophy Block', id: 7 },
-  { dateLabel: 'August 2019', title: 'Strength Block', id: 8 },
-  { dateLabel: 'September 2019', title: 'Hypertrophy Block', id: 9 },
-   { dateLabel: 'October 2019', title: 'Hypertrophy Block', id: 10 }
-];
-
-
 
 export default {
   name: 'Canvas',
   props: {
     msg: String,
   },
-  data: () => {
-    return ({
-			steps: data
-		});
-  },
+
   mounted() {
       const swiper = new Swiper('.swiper-container', {
       //pagination: '.swiper-pagination',

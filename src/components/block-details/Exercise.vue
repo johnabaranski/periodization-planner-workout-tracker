@@ -1,11 +1,9 @@
 <template>
 <div class="exercise-container">
-    <h5>This is an Exercise in a Workout - {{ exname }}</h5>
-    
-  <!-- <li v-for="index in sets" :key="index">Set #: {{ index }}</li> -->
-      <!-- <Set :rpe=8 reps="5" weight="200" v-for="index in sets" :key="index"/> -->
-    <Set rpe="8" reps="5" weight="200" />
-    <Set rpe="7" reps="6" weight="200" />
+    <h5>{{ exname }}</h5>
+      <div v-for="set in sets.sets" :key="set.id">
+          <Set :rpe="set.rpe" :reps="set.reps" :weight="set.weight" :distance="set.distance"/>
+      </div>
     </div>
 </template>
 
@@ -17,6 +15,7 @@ export default {
   name: 'Exercise',
   props: {
     exname: String,
+    sets: Object
   },
   components: {
     Set,
