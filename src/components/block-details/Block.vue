@@ -9,7 +9,7 @@
     <h1>{{ msg }} : {{this.$route.params.id}}</h1>
 <ul class="nav nav-pills justify-content-center">
     <li class="nav-item" v-for="weeklinks in weeks">
-      <a class="nav-link" href="#">{{ weeklinks.title }}</a>
+      <button class="nav-link" @click="goToWeek(weeklinks.id)">{{ weeklinks.title }}</button>
     </li>
 </ul>
 
@@ -17,7 +17,7 @@
 
 
       <div v-for="week in weeks" :key="week.id">
-          <Week :msg="week.title" :id="week.id" :workouts="week"/>
+          <Week  :msg="week.title" :id="makeId(week.id)" :workouts="week"/>
       </div>
 
 
@@ -36,8 +36,6 @@ export default {
   name: 'Block',
   props: {
     msg: String,
-    id: String,
-   // week: Object
   },
 components: {
     Week,
@@ -45,6 +43,19 @@ components: {
   mounted() {
     //this will pass the block id to the store
     this.$store.dispatch('getWeeks', this.$route.params.id) 
+  },
+  methods: {
+  goToWeek: (e) => {
+    let weekId = "week" + e
+    let elmnt = document.getElementById(weekId)
+    elmnt.scrollIntoView({ behavior: "smooth" })
+
+  },
+  makeId: (e) => {
+
+    let weekId = "week" + e
+    return weekId
+    }
   },
   computed: mapState([
     'weeks'

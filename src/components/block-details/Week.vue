@@ -5,9 +5,6 @@
       <div v-for="workout in workouts.workouts" :key="workout.workouts">
           <Workout :msg="workout.title" :id="workout.id" :exercises="workout"/>
       </div>
-    <!-- <Workout msg="Workout 1"/>
-    <Workout msg="Workout 2"/>
-    <Workout msg="Workout 3"/> -->
 </div>
 </template>
 
@@ -20,12 +17,12 @@ export default {
   name: 'Week',
   props: {
     msg: String,
-    id: String,
+    // id: String, if passed as a property v-bind: doesn't register the elements id
     workouts: Object
   },
 components: {
     Workout,
-  },
+  }
 
 };
 
