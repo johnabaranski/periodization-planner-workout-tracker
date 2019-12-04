@@ -17,7 +17,7 @@ export default {
   name: 'Week',
   props: {
     msg: String,
-    // id: String, if passed as a property v-bind: doesn't register the elements id
+    // id: String, if passed as a property v-bind: doesn't register the elements id -
     workouts: Object
   },
 components: {
